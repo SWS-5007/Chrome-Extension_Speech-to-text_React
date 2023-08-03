@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "typeRoots": [ "node_modules/@types"],
+    "strictNullChecks": true,
+    "allowUnusedLabels": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "allowUmdGlobalAccess": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "strict": true
+  }
+}

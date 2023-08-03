@@ -1,0 +1,38 @@
+{
+  "name": "Boundless Access Control for Meraki",
+  "description": "Boundless Access Control for Meraki adds Role-Based Access Control to the Cisco Meraki administration dashboard.",
+  "version": "$BUILD_VERSION",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Boundless Access Control for Meraki",
+    "default_icon": "logo-dark.png"
+  },
+  "permissions": ["storage", "tabs"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.meraki.com/*"],
+      "run_at": "document_start",
+      "js": ["initialize.js"]
+    },
+    {
+      "matches": ["https://dashboard.boundlessdigital.com/*"],
+      "js": ["boundless.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["logo-light.png", "mkiconf_sampler.js"],
+      "matches": ["https://*.meraki.com/*"]
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+{
+  "email": "sid137+we@731.boundless-sso.com",
+  "permissions": {
+    "organization": {
+      "-3128708391124171327": {
+        "hidden": {
+          "Organization": "all"
+        },
+        "hidden_pages": [
+          {
+            "controller": "organization",
+            "action": "overview",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/overview"
+          },
+          {
+            "controller": "organization",
+            "action": "change_log",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/change_log"
+          },
+          {
+            "controller": "organization",
+            "action": "login_attempts",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/login_attempts"
+          },
+          {
+            "controller": "security",
+            "action": "summary",
+            "network_type": "wireless",
+            "path_fragment": "/manage/security/summary"
+          },
+          {
+            "controller": "organization",
+            "action": "analytics",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/analytics"
+          },
+          {
+            "controller": "organization",
+            "action": "templates",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/templates"
+          },
+          {
+            "controller": "vpn",
+            "action": "overview",
+            "network_type": "sensor",
+            "path_fragment": "/manage/vpn/overview"
+          },
+          {
+            "controller": "organization",
+            "action": "firmware_upgrades",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/firmware_upgrades/overview"
+          },
+          {
+            "controller": "new_reports",
+            "action": "index",
+            "network_type": "sensor",
+            "path_fragment": "/manage/new_reports"
+          },
+          {
+            "controller": "organization",
+            "action": "edit",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/edit"
+          },
+          {
+            "controller": "organization",
+            "action": "bulk_editor",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/bulk_editor"
+          },
+          {
+            "controller": "organization",
+            "action": "admins",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/admins"
+          },
+          {
+            "controller": "organization",
+            "action": "roles",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/roles"
+          },
+          {
+            "controller": "dashboard",
+            "action": "license_info",
+            "network_type": "sensor",
+            "path_fragment": "/manage/dashboard/license_info"
+          },
+          {
+            "controller": "organization",
+            "action": "bulk_network_creator",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/bulk_network_creator"
+          },
+          {
+            "controller": "organization",
+            "action": "new_network",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/new_network"
+          },
+          {
+            "controller": "organization",
+            "action": "inventory",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/inventory"
+          },
+          {
+            "controller": "network_objects",
+            "action": "index",
+            "network_type": "sensor",
+            "path_fragment": "/manage/network_objects/objects"
+          },
+          {
+            "controller": "organization",
+            "action": "adaptive_policies",
+            "network_type": "sensor",
+            "path_fragment": "/manage/organization/adaptive_policies/groups"
+          }
+        ]
+      }
+    },
+    "network": {
+      "5798194186301164419": {
+        "hidden": {
+          "Network-wide": "all",
+          "Cameras": "all",
+          "Cellular Gateway": "all",
+          "Security & SD-WAN": "all",
+          "Switch": "all",
+          "Wireless": {
+            "Monitor": [],
+            "Configure": []
+          },
+          "Environmental": "all",
+          "Insight": "all"
+        },
+        "hidden_pages": [
+          {
+            "controller": "usage",
+            "action": "list",
+            "network_type": "switch",
+            "path_fragment": "/manage/usage/list"
+          },
+          {
+            "controller": "nodes",
+            "action": "topology",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/topology/l2_topology"
+          },
+          {
+            "controller": "dashboard",
+            "action": "tcpdump",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/tcpdump"
+          },
+          {
+            "controller": "dashboard",
+            "action": "event_log",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/event_log"
+          },
+          {
+            "controller": "dashboard",
+            "action": "floorplans",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/floorplans"
+          },
+          {
+            "controller": "configure",
+            "action": "general",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/general"
+          },
+          {
+            "controller": "configure",
+            "action": "admins",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/admins"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "group_policies",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/group_policies"
+          },
+          {
+            "controller": "configure",
+            "action": "guests",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/guests"
+          },
+          {
+            "controller": "configure",
+            "action": "add_devices",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/add_devices"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "camera",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "video",
+            "action": "video_wall",
+            "network_type": "camera",
+            "path_fragment": "/manage/video/video_wall"
+          },
+          {
+            "controller": "access_logs",
+            "action": "video_access_log",
+            "network_type": "camera",
+            "path_fragment": "/manage/access_logs/video_access_log"
+          },
+          {
+            "controller": "video_exports",
+            "action": "index",
+            "network_type": "camera",
+            "path_fragment": "/manage/video_exports"
+          },
+          {
+            "controller": "configure",
+            "action": "system_settings",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/system_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "camera_profiles",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/camera_profiles/quality_retention"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "cellular_gateway_settings",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/configure/cellular_gateway_settings"
+          },
+          {
+            "controller": "usage",
+            "action": "list",
+            "network_type": "wired",
+            "path_fragment": "/manage/usage/list"
+          },
+          {
+            "controller": "usage",
+            "action": "list",
+            "network_type": "wired",
+            "path_fragment": "/manage/usage/list"
+          },
+          {
+            "controller": "configure",
+            "action": "router_settings2",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/router_settings2"
+          },
+          {
+            "controller": "configure",
+            "action": "wireless",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/wireless"
+          },
+          {
+            "controller": "configure",
+            "action": "dhcp",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/dhcp"
+          },
+          {
+            "controller": "configure",
+            "action": "firewall",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/firewall"
+          },
+          {
+            "controller": "configure",
+            "action": "vpn_settings",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/vpn_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "client_vpn_settings",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/client_vpn_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "active_directory",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/active_directory"
+          },
+          {
+            "controller": "configure",
+            "action": "traffic_shaping",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/traffic_shaping/0"
+          },
+          {
+            "controller": "configure",
+            "action": "access_control",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/access_control/0"
+          },
+          {
+            "controller": "configure",
+            "action": "splash_page",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/splash_page/0"
+          },
+          {
+            "controller": "configure",
+            "action": "concentrator_settings",
+            "network_type": "wired",
+            "path_fragment": "/manage/configure/concentrator_settings"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "dhcp_servers",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/dhcp_servers"
+          },
+          {
+            "controller": "switch_profiles",
+            "action": "index",
+            "network_type": "switch",
+            "path_fragment": "/manage/switch_profiles"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "acl",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/acl"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_access",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_access"
+          },
+          {
+            "controller": "configure",
+            "action": "port_schedules",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/port_schedules"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_settings",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "firmware_upgrades",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/firmware_upgrades/status"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "sensor",
+            "path_fragment": "/manage/nodes/new_list/sensors/overview"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "app_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/health"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "uplink_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/uplinks"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "voip_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/voip"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "edit",
+            "network_type": "wireless",
+            "path_fragment": "/manage/app_analytics/configure"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "alert_config_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/alerts_config/list/wan"
+          }
+        ]
+      },
+      "5249644292165776180": {
+        "hidden": {
+          "Network-wide": "all",
+          "Cameras": "all",
+          "Cellular Gateway": "all",
+          "Security & SD-WAN": {
+            "Monitor": [],
+            "Configure": []
+          },
+          "Switch": "all",
+          "Wireless": "all",
+          "Environmental": "all",
+          "Insight": "all"
+        },
+        "hidden_pages": [
+          {
+            "controller": "usage",
+            "action": "list",
+            "network_type": "switch",
+            "path_fragment": "/manage/usage/list"
+          },
+          {
+            "controller": "nodes",
+            "action": "topology",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/topology/l2_topology"
+          },
+          {
+            "controller": "dashboard",
+            "action": "tcpdump",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/tcpdump"
+          },
+          {
+            "controller": "dashboard",
+            "action": "event_log",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/event_log"
+          },
+          {
+            "controller": "dashboard",
+            "action": "floorplans",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/floorplans"
+          },
+          {
+            "controller": "configure",
+            "action": "general",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/general"
+          },
+          {
+            "controller": "configure",
+            "action": "admins",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/admins"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "group_policies",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/group_policies"
+          },
+          {
+            "controller": "configure",
+            "action": "guests",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/guests"
+          },
+          {
+            "controller": "configure",
+            "action": "add_devices",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/add_devices"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "camera",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "video",
+            "action": "video_wall",
+            "network_type": "camera",
+            "path_fragment": "/manage/video/video_wall"
+          },
+          {
+            "controller": "access_logs",
+            "action": "video_access_log",
+            "network_type": "camera",
+            "path_fragment": "/manage/access_logs/video_access_log"
+          },
+          {
+            "controller": "video_exports",
+            "action": "index",
+            "network_type": "camera",
+            "path_fragment": "/manage/video_exports"
+          },
+          {
+            "controller": "configure",
+            "action": "system_settings",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/system_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "camera_profiles",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/camera_profiles/quality_retention"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "cellular_gateway_settings",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/configure/cellular_gateway_settings"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "dhcp_servers",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/dhcp_servers"
+          },
+          {
+            "controller": "switch_profiles",
+            "action": "index",
+            "network_type": "switch",
+            "path_fragment": "/manage/switch_profiles"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "acl",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/acl"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_access",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_access"
+          },
+          {
+            "controller": "configure",
+            "action": "port_schedules",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/port_schedules"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_settings",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "firmware_upgrades",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/firmware_upgrades/status"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "wireless",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "dashboard",
+            "action": "air_marshal",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/air_marshal"
+          },
+          {
+            "controller": "reports",
+            "action": "heatmap",
+            "network_type": "wireless",
+            "path_fragment": "/manage/reports/heatmap"
+          },
+          {
+            "controller": "usage",
+            "action": "users",
+            "network_type": "wireless",
+            "path_fragment": "/manage/usage/users"
+          },
+          {
+            "controller": "usage",
+            "action": "logins",
+            "network_type": "wireless",
+            "path_fragment": "/manage/usage/logins"
+          },
+          {
+            "controller": "security",
+            "action": "pci_list",
+            "network_type": "wireless",
+            "path_fragment": "/manage/security/pci_list"
+          },
+          {
+            "controller": "bluetooth_clients",
+            "action": "index",
+            "network_type": "wireless",
+            "path_fragment": "/manage/bluetooth_clients"
+          },
+          {
+            "controller": "nodes",
+            "action": "rf_overview",
+            "network_type": "wireless",
+            "path_fragment": "/manage/nodes/rf_overview"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "wireless",
+            "path_fragment": "/manage/nodes/new_list/health"
+          },
+          {
+            "controller": "configure",
+            "action": "overview",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/overview"
+          },
+          {
+            "controller": "configure",
+            "action": "access_control",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/access_control/0"
+          },
+          {
+            "controller": "configure",
+            "action": "traffic_shaping",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/traffic_shaping/0"
+          },
+          {
+            "controller": "configure",
+            "action": "splash_page",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/splash_page/0"
+          },
+          {
+            "controller": "configure",
+            "action": "ssid_schedule",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/ssid_schedule/0"
+          },
+          {
+            "controller": "configure",
+            "action": "radio3",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/radio3"
+          },
+          {
+            "controller": "configure",
+            "action": "hotspot_20",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/hotspot_20"
+          },
+          {
+            "controller": "dashboard",
+            "action": "air_marshal",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/air_marshal"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "sensor",
+            "path_fragment": "/manage/nodes/new_list/sensors/overview"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "app_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/health"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "uplink_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/uplinks"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "voip_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/voip"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "edit",
+            "network_type": "wireless",
+            "path_fragment": "/manage/app_analytics/configure"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "alert_config_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/alerts_config/list/wan"
+          }
+        ]
+      },
+      "4386470321437184518": {
+        "hidden": {
+          "Network-wide": "all",
+          "Cameras": "all",
+          "Cellular Gateway": "all",
+          "Security & SD-WAN": {
+            "Monitor": [],
+            "Configure": []
+          },
+          "Switch": {
+            "Monitor": "all",
+            "Configure": [
+              "Profiles",
+              "Profile ports",
+              "Access policies",
+              "Port schedules",
+              "Switch settings"
+            ]
+          },
+          "Wireless": {
+            "Monitor": [],
+            "Configure": []
+          },
+          "Environmental": "all",
+          "Insight": "all"
+        },
+        "hidden_pages": [
+          {
+            "controller": "usage",
+            "action": "list",
+            "network_type": "switch",
+            "path_fragment": "/manage/usage/list"
+          },
+          {
+            "controller": "nodes",
+            "action": "topology",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/topology/l2_topology"
+          },
+          {
+            "controller": "dashboard",
+            "action": "tcpdump",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/tcpdump"
+          },
+          {
+            "controller": "dashboard",
+            "action": "event_log",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/event_log"
+          },
+          {
+            "controller": "dashboard",
+            "action": "floorplans",
+            "network_type": "wireless",
+            "path_fragment": "/manage/dashboard/floorplans"
+          },
+          {
+            "controller": "configure",
+            "action": "general",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/general"
+          },
+          {
+            "controller": "configure",
+            "action": "admins",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/admins"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "group_policies",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/group_policies"
+          },
+          {
+            "controller": "configure",
+            "action": "guests",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/guests"
+          },
+          {
+            "controller": "configure",
+            "action": "add_devices",
+            "network_type": "wireless",
+            "path_fragment": "/manage/configure/add_devices"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "camera",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "video",
+            "action": "video_wall",
+            "network_type": "camera",
+            "path_fragment": "/manage/video/video_wall"
+          },
+          {
+            "controller": "access_logs",
+            "action": "video_access_log",
+            "network_type": "camera",
+            "path_fragment": "/manage/access_logs/video_access_log"
+          },
+          {
+            "controller": "video_exports",
+            "action": "index",
+            "network_type": "camera",
+            "path_fragment": "/manage/video_exports"
+          },
+          {
+            "controller": "configure",
+            "action": "system_settings",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/system_settings"
+          },
+          {
+            "controller": "configure",
+            "action": "alerts",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/alerts"
+          },
+          {
+            "controller": "configure",
+            "action": "camera_profiles",
+            "network_type": "camera",
+            "path_fragment": "/manage/configure/camera_profiles/quality_retention"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "cellular_gateway_settings",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/configure/cellular_gateway_settings"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "switch",
+            "path_fragment": "/manage/nodes/new_list"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "dhcp_servers",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/dhcp_servers"
+          },
+          {
+            "controller": "switch_profiles",
+            "action": "index",
+            "network_type": "switch",
+            "path_fragment": "/manage/switch_profiles"
+          },
+          {
+            "controller": "configure",
+            "action": "switchports",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switchports"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_access",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_access"
+          },
+          {
+            "controller": "configure",
+            "action": "port_schedules",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/port_schedules"
+          },
+          {
+            "controller": "configure",
+            "action": "switch_settings",
+            "network_type": "switch",
+            "path_fragment": "/manage/configure/switch_settings"
+          },
+          {
+            "controller": "nodes",
+            "action": "new_list",
+            "network_type": "sensor",
+            "path_fragment": "/manage/nodes/new_list/sensors/overview"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "app_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/health"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "uplink_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/uplinks"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "voip_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/voip"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "edit",
+            "network_type": "wireless",
+            "path_fragment": "/manage/app_analytics/configure"
+          },
+          {
+            "controller": "app_analytics",
+            "action": "alert_config_index",
+            "network_type": "cellular_gateway",
+            "path_fragment": "/manage/app_analytics/alerts_config/list/wan"
+          }
+        ]
+      }
+    }
+  },
+  "scopes": {
+    "organizations": {
+      "849070": {
+        "permissions": "-3128708391124171327",
+        "hidden_networks": [
+          "Boundless Wifi Testing - switch",
+          "Boundless Wifi Testing - appliance",
+          "Boundless Wifi Testing - wireless",
+          "Vlad Demo",
+          "strategy target",
+          "Sidney - Home"
+        ],
+        "hidden_commands": [
+          "View all networks",
+          "Create a new network",
+          "Search bar",
+          "Help menu"
+        ],
+        "hidden_sections": [
+          "SAML roles"
+        ]
+      },
+      "645140646620826983": {
+        "permissions": "-3128708391124171327",
+        "hidden_networks": [
+          "Template 03",
+          "Template 02",
+          "Template 01",
+          "Network 03"
+        ],
+        "hidden_commands": [
+          "View all networks",
+          "Create a new network",
+          "Search bar",
+          "Help menu"
+        ],
+        "hidden_sections": [
+          "SAML roles"
+        ]
+      }
+    },
+    "networks": {
+      "645140646620892997": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620892960": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620847459": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620842052": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620840675": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620891444": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620837829": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620884451": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620837568": {
+        "permissions": "5798194186301164419"
+      },
+      "645140646620844393": {
+        "permissions": "5249644292165776180"
+      },
+      "645140646620843848": {
+        "permissions": "5249644292165776180"
+      },
+      "645140646620843847": {
+        "permissions": "4386470321437184518"
+      }
+    },
+    "templates": {},
+    "tags": {}
+  },
+  "author": {
+    "email": "akcali.ozgur@gmail.com",
+    "name": "Ozgur Akcali"
+  }
+}
