@@ -53,5 +53,4 @@ Edge Docs: https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/
 
 Edge Guide: https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/publish/api/using-addons-api#before-you-begin
 
-
 	https://microsoftedge.microsoft.com/addons/detail/ehocanhnhbdiobliklhnfbaflmfmdccd
